@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-
+<!-- Al php gran fiquem totes les variables que volem invocar -->
         <?php
             $nom= "Jordi";
             $cognoms= "Pujol i Soley";
@@ -22,8 +22,10 @@
             $alçada=1.50;
 
         ?>
+<!-- Fem els dos títols... -->
         <h1>Descrivint a <?php echo $nom?>  <?php echo $cognoms?></h1>
             <h2>Les dades de <?php echo $nom?></h2>
+<!-- I creem el llistat. Cada cop que volguem invocar una variable, fem php echo -->
             <ul>
                 <li>Es diu: <?php echo $nom?> <?php echo $cognoms?></li>
                 <li>Té <?php echo $edat?> anys</li>
